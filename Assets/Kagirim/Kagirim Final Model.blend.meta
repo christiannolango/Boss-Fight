@@ -1,0 +1,795 @@
+fileFormatVersion: 2
+guid: 5f361e6592eb1844b8a61bb8c6f63e91
+timeCreated: 1507413622
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature_001
+    100004: Body
+    100006: Cube
+    100008: Cube_001
+    100010: Cube_002
+    100012: Cube_003
+    100014: Cube_004
+    100016: Cube_005
+    100018: Foot_l
+    100020: Foot_r
+    100022: Hand_l
+    100024: Hand_l_0
+    100026: Hand_l_001
+    100028: Hand_r
+    100030: Head
+    100032: //RootNode
+    100034: LowArm_l
+    100036: LowArm_r
+    100038: LowerArm_l
+    100040: LowerArm_l_001
+    100042: LowerBody
+    100044: LowerBody_001
+    100046: LowerBody_002
+    100048: LowerBody_003
+    100050: LowerBody_004
+    100052: LowerBody_005
+    100054: LowerBody_006
+    100056: lowerTorso
+    100058: LowLeg_l
+    100060: LowLeg_r
+    100062: Neck
+    100064: Neck_0
+    100066: Plane
+    100068: UpArm_l
+    100070: UpArm_r
+    100072: UpLeg_l
+    100074: UpLeg_r
+    100076: UpperArm_l
+    100078: UpperArm_l_001
+    100080: UpperBody
+    100082: UpperTorso
+    400000: Armature
+    400002: Armature_001
+    400004: Body
+    400006: Cube
+    400008: Cube_001
+    400010: Cube_002
+    400012: Cube_003
+    400014: Cube_004
+    400016: Cube_005
+    400018: Foot_l
+    400020: Foot_r
+    400022: Hand_l
+    400024: Hand_l_0
+    400026: Hand_l_001
+    400028: Hand_r
+    400030: Head
+    400032: //RootNode
+    400034: LowArm_l
+    400036: LowArm_r
+    400038: LowerArm_l
+    400040: LowerArm_l_001
+    400042: LowerBody
+    400044: LowerBody_001
+    400046: LowerBody_002
+    400048: LowerBody_003
+    400050: LowerBody_004
+    400052: LowerBody_005
+    400054: LowerBody_006
+    400056: lowerTorso
+    400058: LowLeg_l
+    400060: LowLeg_r
+    400062: Neck
+    400064: Neck_0
+    400066: Plane
+    400068: UpArm_l
+    400070: UpArm_r
+    400072: UpLeg_l
+    400074: UpLeg_r
+    400076: UpperArm_l
+    400078: UpperArm_l_001
+    400080: UpperBody
+    400082: UpperTorso
+    2300000: Cube_001
+    2300002: Plane
+    3300000: Cube_001
+    3300002: Plane
+    4300000: Plane
+    4300002: Cube_005
+    4300004: Cube
+    4300006: Cube_002
+    4300008: Cube_003
+    4300010: Cube_004
+    4300012: Cube_001
+    7400000: Default Take
+    7400002: Jab
+    7400004: Jab_001
+    7400006: Walk1_001
+    7400008: Walk1_002
+    7400010: Idle
+    7400012: Idle_001
+    7400014: Jump_r
+    7400016: LeftJab
+    9500000: //RootNode
+    13700000: Cube
+    13700002: Cube_002
+    13700004: Cube_003
+    13700006: Cube_004
+    13700008: Cube_005
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/lowerTorso
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l/LowLeg_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l/LowLeg_l/Foot_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r/LowLeg_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r/LowLeg_r/Foot_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/Neck
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/Neck/Head
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l/LowArm_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l/LowArm_l/Hand_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r/LowArm_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r/LowArm_r/Hand_r
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Cube_002
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      - path: Cube_004
+        weight: 1
+      - path: Cube_005
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle_001
+      takeName: Idle_001
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/lowerTorso
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l/LowLeg_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l/LowLeg_l/Foot_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r/LowLeg_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r/LowLeg_r/Foot_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/Neck
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/Neck/Head
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l/LowArm_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l/LowArm_l/Hand_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r/LowArm_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r/LowArm_r/Hand_r
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Cube_002
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      - path: Cube_004
+        weight: 1
+      - path: Cube_005
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jab
+      takeName: Jab
+      firstFrame: -1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/lowerTorso
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l/LowLeg_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l/LowLeg_l/Foot_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r/LowLeg_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r/LowLeg_r/Foot_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/Neck
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/Neck/Head
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l/LowArm_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l/LowArm_l/Hand_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r/LowArm_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r/LowArm_r/Hand_r
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Cube_002
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      - path: Cube_004
+        weight: 1
+      - path: Cube_005
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jab_001
+      takeName: Jab_001
+      firstFrame: -1
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/lowerTorso
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l/LowLeg_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l/LowLeg_l/Foot_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r/LowLeg_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r/LowLeg_r/Foot_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/Neck
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/Neck/Head
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l/LowArm_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l/LowArm_l/Hand_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r/LowArm_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r/LowArm_r/Hand_r
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Cube_002
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      - path: Cube_004
+        weight: 1
+      - path: Cube_005
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump_r
+      takeName: Jump_r
+      firstFrame: -1
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/lowerTorso
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l/LowLeg_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l/LowLeg_l/Foot_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r/LowLeg_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r/LowLeg_r/Foot_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/Neck
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/Neck/Head
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l/LowArm_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l/LowArm_l/Hand_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r/LowArm_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r/LowArm_r/Hand_r
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Cube_002
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      - path: Cube_004
+        weight: 1
+      - path: Cube_005
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: LeftJab
+      takeName: LeftJab
+      firstFrame: -1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/lowerTorso
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l/LowLeg_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l/LowLeg_l/Foot_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r/LowLeg_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r/LowLeg_r/Foot_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/Neck
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/Neck/Head
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l/LowArm_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l/LowArm_l/Hand_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r/LowArm_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r/LowArm_r/Hand_r
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Cube_002
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      - path: Cube_004
+        weight: 1
+      - path: Cube_005
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk1_001
+      takeName: Walk1_001
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/lowerTorso
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l/LowLeg_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l/LowLeg_l/Foot_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r/LowLeg_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r/LowLeg_r/Foot_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/Neck
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/Neck/Head
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l/LowArm_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l/LowArm_l/Hand_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r/LowArm_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r/LowArm_r/Hand_r
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Cube_002
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      - path: Cube_004
+        weight: 1
+      - path: Cube_005
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk1_002
+      takeName: Walk1_002
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_001
+        weight: 1
+      - path: Armature_001/lowerTorso
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l/LowLeg_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_l/LowLeg_l/Foot_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r/LowLeg_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpLeg_r/LowLeg_r/Foot_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/Neck
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/Neck/Head
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l/LowArm_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_l/LowArm_l/Hand_l
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r/LowArm_r
+        weight: 1
+      - path: Armature_001/lowerTorso/UpperTorso/UpArm_r/LowArm_r/Hand_r
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube_001
+        weight: 1
+      - path: Cube_002
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      - path: Cube_004
+        weight: 1
+      - path: Cube_005
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
